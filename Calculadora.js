@@ -1,4 +1,7 @@
 class Calculadora{
+    constructor() {
+        this.total=0;
+    }
     sumar(num1, num2) {
         return num1 + num2;
     }
